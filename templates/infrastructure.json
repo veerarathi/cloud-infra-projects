@@ -1,0 +1,10 @@
+{
+    "project_name": "VITyarthi-Cloud-Demo",
+    "strategy": "Replatforming",
+    "region": "us-east-1",
+    "resources": [
+        {"type": "VPC", "cidr": "10.0.0.0/16"},
+        {"type": "Subnet", "zone": "us-east-1a", "public": true},
+        {"type": "S3", "bucket_name": "vityarthi-assets-bucket"}
+    ]
+}
